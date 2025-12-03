@@ -1,0 +1,150 @@
+.download-btn {
+  border: 1px solid #198754;
+  border-radius: 50rem;
+  padding: 8px 20px;
+  background-color: white;
+  display: inline-block;
+}
+.download-btn a {
+  color: #198754;
+}
+.download-btn:hover {
+  background-color: #198754;
+}
+.download-btn:hover a {
+  color: white;
+}
+.nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: .50em;
+  text-decoration-thickness: 2px;
+}
+
+.custom-heading {
+  font-size: 500%;
+  font-weight: 600;
+  color: #15613e;
+}
+.custom-heading-1 {
+  font-size: 400%;
+  font-weight: 500;
+  color: #15613e;
+
+}
+.letter-spaced {
+  letter-spacing: normal;
+}
+.img-fluid {
+  max-width: 85% ;
+  height: auto;
+  margin-left: -20px;
+}
+
+.badge {
+  top: 90%;
+  left: 25%;
+}
+
+.profile-wrapper {
+    padding: 60px 0;
+    background: rgb(255, 250, 241);
+  }
+
+  .profile-card {
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-info {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    display: inline-block;
+    margin-bottom: 50%
+  }
+
+  .profile-info h5 {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 10px; 
+  }
+
+  .custom-heading-2 {
+    font-size: 370%;
+  font-weight: 700;
+  color: #135838;
+  margin-left: 50px;
+  margin-bottom: 50px;
+
+  }
+
+  .custom-heading-3 {
+    margin-top: 50px;
+    font-size: 350%;
+  font-weight: 700;
+  color: #135838;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  }
+
+  .graph-image {
+    align-items: center;
+    width: 100%;
+  }
+
+  .container-1 {
+    background-color:  rgb(255, 242, 224);
+  }
+
+
+  .timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px; /* jarak antara garis (tahun) dan konten */
+}
+
+.timeline-year {
+  width: 80px; /* kolom untuk tahun */
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #28a745;
+  text-align: right;
+  padding-right: 15px; /* jarak tahun ke garis */
+  border-right: 3px solid #28a745; /* garis menempel ke tahun */
+}
+
+.timeline-content {
+  flex: 1;
+  padding-left: 20px; /* jarak konten dari garis */
+}
+
+.timeline-img {
+  max-width: 100%;
+  width: 400px; /* bisa sesuaikan */
+  border-radius: 10px;
+}
+
+
+.border-hover {
+  color: #198754
+}
+.border-hover:hover{
+  background-color: #198754;
+  color: white
+}
+
